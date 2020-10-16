@@ -8,13 +8,13 @@ Yapılan çalışma kapsamında yapılan sitenin sahip olduğu işlevsel özelli
 
 * Kayıt Olma
 
-* Kayıt E-postası üzerinden hesap aktif etme
+* Kayıt e-postası üzerinden hesap aktif etme
 
 * Not ekleme/düzenleme/silme işlemleri
 
 * Admin kullanıcı girişi
 
-* Not Kategorisi ekleme/düzenleme/silme işlemleri(Admin kullanıcıya özel)
+* Not Kategorisi ekleme/düzenleme/silme işlemleri (Admin kullanıcıya özel)
 
 * Üye ekleme/düzenleme/silme işlemleri (Admin kullanıcıya özel)
 
