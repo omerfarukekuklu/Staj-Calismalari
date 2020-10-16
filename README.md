@@ -1,4 +1,4 @@
-# Staj-Calismalari
+# Repository Hakkında
 
 Bu repository de stajım kapsamında yapmış olduğum not tutma sitesinin kaynak kodları yer almaktadır.
 
