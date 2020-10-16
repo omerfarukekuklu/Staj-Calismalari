@@ -1,0 +1,106 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/*.glyphicon.glyphicon-star-panel {
+    font-size: 10px;
+}*/
+
+.glyphicon.glyphicon-star {
+    font-size: 20px;
+}
+
+.glyphicon.glyphicon-star-empty {
+    font-size: 20px;
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+span.red {
+    color: #d03f3f;
+}
+
+div.nopaddingr {
+    padding-right: 0;
+}
+
+div.nopaddingl {
+    padding-left: 0;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+/*a.list-group-item {
+    color:#337ab7;
+}*/
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 185px;
+    overflow: hidden;
+}
+
+    .caption h4 {
+        white-space: nowrap;
+    }
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    height: 370px;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d03f3f;
+}
+
+    .ratings button {
+        color: #d03f3f;
+    }
+
+        .ratings button:hover {
+            color: #d72e2e;
+        }
+
+hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-color: #337ab7;
+    opacity: 0.3;
+}
+
+/*hr.blue {
+        border-color: #337ab7;
+        opacity: 0.3;
+    }*/
+
+.thumbnail {
+    padding: 0;
+}
+
+    .thumbnail .caption-full {
+        padding: 9px;
+        color: #333;
+    }
+
+footer {
+    margin: 50px 0;
+}

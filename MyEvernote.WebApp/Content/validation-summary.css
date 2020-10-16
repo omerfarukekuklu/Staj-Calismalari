@@ -1,0 +1,16 @@
+﻿.validation-summary-errors {
+    border: 2px #a94442;
+    background-color: #d76663;
+    border-radius: 8px;
+    /*margin-bottom: 8px;*/
+}
+
+    .validation-summary-errors ul {
+        padding: 10px;
+        color: #fff;
+    }
+
+.field-validation-error span {
+    /*color: #009edf;*/
+    color: #d9534f;
+}

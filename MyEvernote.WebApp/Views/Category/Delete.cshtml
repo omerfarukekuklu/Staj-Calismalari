@@ -1,0 +1,78 @@
+﻿@model MyEvernote.Entities.Category
+
+@{
+    ViewBag.Title = "Kategori Silme";
+}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <h2>@ViewBag.Title</h2>
+        <h3>Bu kategoriyi silmek istediğinize emin misiniz?</h3>
+        <hr />
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div>
+            <h4>@Model.Title</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Title)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Title)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CreatedOn)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CreatedOn)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ModifiedOn)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ModifiedOn)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ModifiedUsername)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ModifiedUsername)
+                </dd>
+
+            </dl>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color col-md-8 col-md-push-1">
+                @BootstrapHelper.Button("submit", "danger", string.Empty, string.Empty,
+                   "remove", "Sil")
+
+                @BootstrapHelper.LinkButton("/Category/Index/", "default", string.Empty, string.Empty,
+               "circle-arrow-left", "Geri")
+            </div>
+            }
+        </div>
+    </div>
+</div>
